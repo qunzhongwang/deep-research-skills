@@ -14,7 +14,7 @@ A structured research workflow for Claude Code with two phases: outline generati
 ## Installation
 
 ```bash
-git clone https://github.com/Weizhena/deep-research-skills.git
+git clone https://github.com/qunzhongwang/deep-research-skills.git
 cd deep-research-skills
 
 # Install skills
@@ -32,13 +32,13 @@ pip install pyyaml
 
 > Claude Code 2.1.0+ supports direct `/skill-name` triggers. Older versions: use `run /skill-name`.
 
-| Command | Description |
-|---|---|
-| `/research` | Generate a research outline with items and fields |
-| `/research-add-items` | Add more items to an existing outline |
+| Command                | Description                                       |
+| ---------------------- | ------------------------------------------------- |
+| `/research`            | Generate a research outline with items and fields |
+| `/research-add-items`  | Add more items to an existing outline             |
 | `/research-add-fields` | Add more field definitions to an existing outline |
-| `/research-deep` | Deep-research each item with parallel agents |
-| `/research-report` | Generate a markdown report from the JSON results |
+| `/research-deep`       | Deep-research each item with parallel agents      |
+| `/research-report`     | Generate a markdown report from the JSON results  |
 
 ## Workflow
 
@@ -86,7 +86,7 @@ Compiles all JSON results into a single markdown report with table of contents.
 ## References
 
 - [RhinoInsight: Improving Deep Research through Control Mechanisms for Model Behavior and Context](https://arxiv.org/abs/2511.18743)
-- Modified from [DeepResearchLab/deep-research-skills](https://github.com/DeepResearchLab/deep-research-skills)
+- Modified from [DeepResearchLab/deep-research-skills](https://github.com/Weizhena/deep-research-skills.git)
 
 ## License
 
